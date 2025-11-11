@@ -1,0 +1,14 @@
+{
+  "name": "rust-pool-sim-tooling",
+  "private": true,
+  "scripts": {
+    "lint:js": "eslint frontend/main.js",
+    "lint:js:fix": "eslint frontend/main.js --fix",
+    "fmt:js": "prettier --write frontend/main.js",
+    "fmt:js:check": "prettier --check frontend/main.js"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "prettier": "^3.0.0"
+  }
+}
